@@ -1,5 +1,5 @@
 #Owned by DairyMan@Whirlpool
-#
+# Porting to arm by Manssizz (c) 2023
 #Copyright GNU act.
 include $(TOPDIR)/rules.mk
 
@@ -21,7 +21,7 @@ define Package/ext-rooter-basic
 	    +kmod-usb-net-sierrawireless +kmod-usb-ohci +kmod-usb-serial +kmod-nls-utf8 \
 	    +kmod-usb-serial-option +kmod-usb-serial-sierrawireless +luci-proto-3x \
 	    +kmod-usb-uhci +kmod-usb2 +luci-proto-3g +iptables \
-	    +usb-modeswitch +wireless-tools +rmbim +ext-sms +ext-buttons +kmod-rt2800-usb 
+	    +usb-modeswitch +wireless-tools +ext-sms +ext-buttons +kmod-rt2800-usb 
   TITLE:=ROOter support for usbmodems
   PKGARCH:=all
 endef
