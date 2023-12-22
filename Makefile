@@ -1,5 +1,5 @@
 #Owned by DairyMan@Whirlpool
-# Porting to arm by Manssizz (c) 2023
+# Porting to arm box device by Manssizz (c) 2023
 #Copyright GNU act.
 include $(TOPDIR)/rules.mk
 
@@ -9,8 +9,6 @@ PKG_RELEASE:=1
 
 PKG_MAINTAINER:=Created by DM/makefile by Cobia@whirlpool
 include $(INCLUDE_DIR)/package.mk
-
-# +kmod-rt2800-usb
 
 define Package/ext-rooter-basic
   SECTION:=utils
